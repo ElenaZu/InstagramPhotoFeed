@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.first_photo_header h3:nth-of-type(2) {
+    color: #b5b8ba;
+  }
+
+header{
+    text-align: center;
+   
+}
+
+.header-content{
+
+    max-width: 31%; 
+    margin: 0 auto; 
+    text-align: left;
+
+}
+
+.wrapper{
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.photo_wrapper{
+    background-color: white;
+    width: 31%;
+    
+}
+
+.photo_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_wrapper img{
+
+    width: 100%;
+    object-fit: cover;
+}
+
+.text{
+    padding: 12px;
+
+}
+
+.wrapper h5{
+    font-weight: 300;
+}
